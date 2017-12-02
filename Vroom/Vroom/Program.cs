@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace Vroom
 {
@@ -8,10 +9,12 @@ namespace Vroom
         {
             Console.WriteLine("Hello World!");
 
+            InputHandler();
+
             Console.ReadLine();
         }
 
-        public int NavigateMenu()
+        static int NavigateMenu()
         {
             try
             {
@@ -40,7 +43,7 @@ namespace Vroom
         }
 
         //this method handles the user's selection and assigns a number to each method that the user can access
-        public void InputHandler()
+        static void InputHandler()
         {
             int choice = NavigateMenu();
 
@@ -80,52 +83,61 @@ namespace Vroom
         }
 
         //open door
-        public void OpenDoor()
+        static void OpenDoor()
         {
             Console.WriteLine("The door is open. Feel free to enter.");
+            Console.WriteLine();
 
             InputHandler();
         }
 
         //close door
-        public void CloseDoor()
+        static void CloseDoor()
         {
+            Console.WriteLine();
 
         }
 
         //lock
-        public void LockDoors()
+        static void LockDoors()
         {
+            Console.WriteLine();
 
         }
 
         //unlock
-        public void UnlockDoors()
+        static void UnlockDoors()
         {
+            Console.WriteLine();
 
         }
 
         //start the car
-        public void VroomVroom()
+        static void VroomVroom()
         {
+            Console.WriteLine();
 
         }
 
         //turn off the car
-        public void TurnOff()
+        static void TurnOff()
         {
+            Console.WriteLine();
 
         }
 
         //turn on the lights - Harry Potter themed
-        public void Lumos()
+        static void Lumos()
         {
+            Console.WriteLine();
 
         }
 
         //turn off the lights - this one is in Latin, means "darkness"
-        public void Tenebris()
+        static void Tenebris()
         {
+            Console.WriteLine();
+
         }
 
         //return to main menu
