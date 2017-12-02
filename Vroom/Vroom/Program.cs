@@ -7,19 +7,17 @@ namespace Vroom
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
+            Console.WriteLine("Welcome to the Tesla driving system. I am Elon, your driving assistant. How would you like to proceed?");
             InputHandler();
 
             Console.ReadLine();
         }
 
+        //here is the table of contents / main menu - it will be referred to from the InputHandler method
         static int NavigateMenu()
         {
             try
             {
-                //here is the table of contents / main menu
-                Console.WriteLine("Welcome to the Tesla driving system. I am Elon, your driving assistant. How would you like to proceed?");
                 Console.WriteLine("1. Open the door.");
                 Console.WriteLine("2. Close the door.");
                 Console.WriteLine("3. Unlock the car.");
@@ -28,7 +26,7 @@ namespace Vroom
                 Console.WriteLine("6. Turn off the engine.");
                 Console.WriteLine("7. Turn on the lights.");
                 Console.WriteLine("8. Turn off the lights.");
-                Console.WriteLine("9. Return to the main menu.");
+                Console.WriteLine("9. Go offline.");
 
                 int input = Convert.ToInt32(Console.ReadLine());
                 return input;
@@ -73,8 +71,9 @@ namespace Vroom
                 case 8:
                     Tenebris();
                     break;
-                //case 9:
-                //    break;
+                case 9:
+                    ExitNavigation();
+                    break;
                 default:
                     Console.WriteLine("Please choose from one of the available options.");
                     InputHandler();
@@ -94,7 +93,12 @@ namespace Vroom
         //close door
         static void CloseDoor()
         {
+            //if() { }
+
+            Console.WriteLine("The door is now closed. What would you like to do next?");
             Console.WriteLine();
+
+            InputHandler();
 
         }
 
@@ -102,45 +106,49 @@ namespace Vroom
         static void LockDoors()
         {
             Console.WriteLine();
-
+            InputHandler();
         }
 
         //unlock
         static void UnlockDoors()
         {
             Console.WriteLine();
-
+            InputHandler();
         }
 
         //start the car
         static void VroomVroom()
         {
             Console.WriteLine();
-
+            InputHandler();
         }
 
         //turn off the car
         static void TurnOff()
         {
             Console.WriteLine();
-
+            InputHandler();
         }
 
         //turn on the lights - Harry Potter themed
         static void Lumos()
         {
             Console.WriteLine();
-
+            InputHandler();
         }
 
         //turn off the lights - this one is in Latin, means "darkness"
         static void Tenebris()
         {
             Console.WriteLine();
-
+            InputHandler();
         }
 
-        //return to main menu
+        //use this to turn off the driving assistant
+        static void ExitNavigation()
+        {
+            Console.WriteLine("Sorry to see you go. Until next time!");
+        }
     }
 }
 
