@@ -1,0 +1,11 @@
+C:\Users\shami\Source\Repos\carCommands\Vroom\Vroom\bin\Debug\netcoreapp2.0\Vroom.deps.json
+C:\Users\shami\Source\Repos\carCommands\Vroom\Vroom\bin\Debug\netcoreapp2.0\Vroom.runtimeconfig.json
+C:\Users\shami\Source\Repos\carCommands\Vroom\Vroom\bin\Debug\netcoreapp2.0\Vroom.runtimeconfig.dev.json
+C:\Users\shami\Source\Repos\carCommands\Vroom\Vroom\bin\Debug\netcoreapp2.0\Vroom.dll
+C:\Users\shami\Source\Repos\carCommands\Vroom\Vroom\bin\Debug\netcoreapp2.0\Vroom.pdb
+C:\Users\shami\Source\Repos\carCommands\Vroom\Vroom\obj\Debug\netcoreapp2.0\Vroom.csprojResolveAssemblyReference.cache
+C:\Users\shami\Source\Repos\carCommands\Vroom\Vroom\obj\Debug\netcoreapp2.0\Vroom.csproj.CoreCompileInputs.cache
+C:\Users\shami\Source\Repos\carCommands\Vroom\Vroom\obj\Debug\netcoreapp2.0\Vroom.AssemblyInfoInputs.cache
+C:\Users\shami\Source\Repos\carCommands\Vroom\Vroom\obj\Debug\netcoreapp2.0\Vroom.AssemblyInfo.cs
+C:\Users\shami\Source\Repos\carCommands\Vroom\Vroom\obj\Debug\netcoreapp2.0\Vroom.dll
+C:\Users\shami\Source\Repos\carCommands\Vroom\Vroom\obj\Debug\netcoreapp2.0\Vroom.pdb
