@@ -34,6 +34,7 @@ namespace Vroom
             catch (FormatException fe)
             {
                 Console.WriteLine($"You entered {fe}. Please enter one of the numbers above.");
+                Console.WriteLine();
             }
             catch (Exception ex) { Console.WriteLine(ex); }
             finally { Console.WriteLine("Thanks for the entry."); }
@@ -84,7 +85,7 @@ namespace Vroom
         //open door
         static void OpenDoor()
         {
-            Console.WriteLine("The door is open. Feel free to enter.");
+            Console.WriteLine("The door is now open. Feel free to enter.");
             Console.WriteLine();
 
             InputHandler();
@@ -93,18 +94,17 @@ namespace Vroom
         //close door
         static void CloseDoor()
         {
-            //if() { }
-
             Console.WriteLine("The door is now closed. What would you like to do next?");
+            
             Console.WriteLine();
 
             InputHandler();
-
         }
 
         //lock
         static void LockDoors()
         {
+            Console.WriteLine("Locked and loaded. Erm, I mean, your vehicle is now secure.");
             Console.WriteLine();
             InputHandler();
         }
@@ -112,13 +112,22 @@ namespace Vroom
         //unlock
         static void UnlockDoors()
         {
+            Console.WriteLine("The doors are unlocked.");
             Console.WriteLine();
             InputHandler();
         }
 
+        //bool condition = VroomVroom();
+
         //start the car
         static void VroomVroom()
         {
+            Console.WriteLine("The car is turned on.");
+            InputHandler();
+            
+            Console.WriteLine("The car cannot be turned on again. It's already on!");
+            
+
             Console.WriteLine();
             InputHandler();
         }
@@ -126,6 +135,7 @@ namespace Vroom
         //turn off the car
         static void TurnOff()
         {
+            Console.WriteLine("The car is now off.");
             Console.WriteLine();
             InputHandler();
         }
@@ -133,6 +143,7 @@ namespace Vroom
         //turn on the lights - Harry Potter themed
         static void Lumos()
         {
+            Console.WriteLine("Let there be light!");
             Console.WriteLine();
             InputHandler();
         }
@@ -140,6 +151,7 @@ namespace Vroom
         //turn off the lights - this one is in Latin, means "darkness"
         static void Tenebris()
         {
+            Console.WriteLine("Lights are now off.");
             Console.WriteLine();
             InputHandler();
         }
