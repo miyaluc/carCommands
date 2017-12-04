@@ -5,7 +5,7 @@ namespace UnitTestProject1
 {
     public class UnitTest1
     {
-        //[Fact]
+        [Fact]
         public void TestMethod1()
         {
         }
