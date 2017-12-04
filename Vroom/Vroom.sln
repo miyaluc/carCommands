@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vroom", "Vroom\Vroom.csproj", "{240A7135-2396-4D83-AD23-ED9746EEB9EB}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7DA6882D-A724-42ED-BFA3-444833342F9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{970B09EF-9E9E-4BC5-A61B-1BEFDC16DF34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +17,10 @@ Global
 		{240A7135-2396-4D83-AD23-ED9746EEB9EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{240A7135-2396-4D83-AD23-ED9746EEB9EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{240A7135-2396-4D83-AD23-ED9746EEB9EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{970B09EF-9E9E-4BC5-A61B-1BEFDC16DF34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970B09EF-9E9E-4BC5-A61B-1BEFDC16DF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970B09EF-9E9E-4BC5-A61B-1BEFDC16DF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970B09EF-9E9E-4BC5-A61B-1BEFDC16DF34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

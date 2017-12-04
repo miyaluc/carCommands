@@ -4,8 +4,23 @@ using System.Text;
 
 namespace Vroom
 {
-    class Vehicle
+    public class Vehicle
     {
+        public int Year
+        {
+            get; set;
+        }
+
+        public string Type
+        {
+            get; set;
+        }
+
+        //public int CarStats()
+        //{
+
+        //}
+        
         //here is the table of contents / main menu - it will be referred to from the InputHandler method
         public int NavigateMenu()
         {
