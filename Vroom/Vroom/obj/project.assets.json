@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\shami\\Source\\Repos\\carCommands\\Vroom\\Vroom\\Vroom.csproj",
+      "projectUniqueName": "C:\\Users\\shami\\source\\repos\\carCommands\\Vroom\\Vroom\\Vroom.csproj",
       "projectName": "Vroom",
-      "projectPath": "C:\\Users\\shami\\Source\\Repos\\carCommands\\Vroom\\Vroom\\Vroom.csproj",
+      "projectPath": "C:\\Users\\shami\\source\\repos\\carCommands\\Vroom\\Vroom\\Vroom.csproj",
       "packagesPath": "C:\\Users\\shami\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shami\\Source\\Repos\\carCommands\\Vroom\\Vroom\\obj\\",
+      "outputPath": "C:\\Users\\shami\\source\\repos\\carCommands\\Vroom\\Vroom\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
