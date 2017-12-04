@@ -7,7 +7,7 @@ namespace Vroom
     class Vehicle
     {
         //here is the table of contents / main menu - it will be referred to from the InputHandler method
-        static int NavigateMenu()
+        public int NavigateMenu()
         {
             try
             {
@@ -35,7 +35,7 @@ namespace Vroom
         }
 
         //this method handles the user's selection and assigns a number to each method that the user can access
-        static void InputHandler()
+        public void InputHandler()
         {
             int choice = NavigateMenu();
 
@@ -76,7 +76,7 @@ namespace Vroom
         }
 
         //open door
-        static void OpenDoor()
+        public void OpenDoor()
         {
             Console.WriteLine("The door is now open. Feel free to enter.");
             Console.WriteLine();
@@ -85,7 +85,7 @@ namespace Vroom
         }
 
         //close door
-        static void CloseDoor()
+        public void CloseDoor()
         {
             Console.WriteLine("The door is now closed. What would you like to do next?");
 
@@ -95,7 +95,7 @@ namespace Vroom
         }
 
         //lock
-        static void LockDoors()
+        public void LockDoors()
         {
             Console.WriteLine("Locked and loaded. Erm, I mean, your vehicle is now secure.");
             Console.WriteLine();
@@ -103,7 +103,7 @@ namespace Vroom
         }
 
         //unlock
-        static void UnlockDoors()
+        public void UnlockDoors()
         {
             Console.WriteLine("The doors are unlocked.");
             Console.WriteLine();
@@ -113,7 +113,7 @@ namespace Vroom
         //bool condition = VroomVroom();
 
         //start the car
-        static void VroomVroom()
+        public void VroomVroom()
         {
             Console.WriteLine("The car is turned on.");
             InputHandler();
@@ -126,7 +126,7 @@ namespace Vroom
         }
 
         //turn off the car
-        static void TurnOff()
+        public void TurnOff()
         {
             Console.WriteLine("The car is now off.");
             Console.WriteLine();
@@ -134,7 +134,7 @@ namespace Vroom
         }
 
         //turn on the lights - Harry Potter themed
-        static void Lumos()
+        public void Lumos()
         {
             Console.WriteLine("Let there be light!");
             Console.WriteLine();
@@ -142,7 +142,7 @@ namespace Vroom
         }
 
         //turn off the lights - this one is in Latin, means "darkness"
-        static void Tenebris()
+        public void Tenebris()
         {
             Console.WriteLine("Lights are now off.");
             Console.WriteLine();
@@ -150,7 +150,7 @@ namespace Vroom
         }
 
         //use this to turn off the driving assistant
-        static void ExitNavigation()
+        public void ExitNavigation()
         {
             Console.WriteLine("Sorry to see you go. Until next time!");
         }
